@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.mywebservis</groupId>
+    <artifactId>mywebservis</artifactId>
+    <version>01.03.03-00</version>
+
+    <!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-server -->
+    <dependencies>
+    <dependency>
+        <groupId>org.eclipse.jetty</groupId>
+        <artifactId>jetty-server</artifactId>
+        <version>9.4.6.v20170531</version>
+    </dependency>
+
+    </dependencies>
+    <build>
+    </build>
+</project>
