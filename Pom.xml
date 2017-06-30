@@ -11,10 +11,16 @@
     <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-server</artifactId>
-        <version>9.3.0.M01</version>
-        <!--   <version>9.4.6.v20170531</version>-->
-      </dependency>
+        <version>9.4.6.v20170531</version>
+        <!--   <version>9.4.6.v20170531  9.3.0.M01</version>-->
 
+        <!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-webapp -->
+    </dependency>
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-webapp</artifactId>
+            <version>9.4.6.v20170531</version>
+        </dependency>
       </dependencies>
       <build>
       </build>
